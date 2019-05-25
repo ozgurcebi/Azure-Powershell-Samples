@@ -7,3 +7,4 @@ Each script will describe its own dependencies for execution. Generally, you wil
 Azure PowerShell: How to install and configure Azure PowerShell  https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/
 
 # Synopsis of Sample Scripts
+* Create Simulated Azure and On-Premises Hybrid Cloud Lab.ps1 (TR) 
