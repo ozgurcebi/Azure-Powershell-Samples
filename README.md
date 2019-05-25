@@ -7,4 +7,4 @@ Each script will describe its own dependencies for execution. Generally, you wil
 Azure PowerShell: How to install and configure Azure PowerShell  https://azure.microsoft.com/en-us/documentation/articles/powershell-install-configure/
 
 # Synopsis of Sample Scripts
-* Create Simulated Azure and On-Premises Hybrid Cloud Lab.ps1 (TR) 
+* Create Simulated Azure and On-Premises Hybrid Cloud Lab.ps1 (TR) This script will create 2 different RG in Azure West Europe region. In each RG's will create isolated Address Space and Subnet.
