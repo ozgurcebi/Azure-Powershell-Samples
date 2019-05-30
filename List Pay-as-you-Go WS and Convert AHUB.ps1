@@ -4,6 +4,7 @@ $vmOutput = @()
 $VMs | ForEach-Object { 
   $tmpObj = New-Object -TypeName PSObject
   $tmpObj | Add-Member -MemberType Noteproperty -Name "VM Name" -Value $_.Name
+  $tmpObj | Add-Member -MemberType Noteproperty -Name "CPU Cores" -Value $env:NUMBER_OF_PROCESSORS
   $tmpObj | Add-Member -MemberType Noteproperty -Name "OS version" -Value $_.StorageProfile.OsDisk.OsType
   $tmpObj | Add-Member -MemberType Noteproperty -Name "License Type" -Value $_.LicenseType
   $tmpObj | Add-Member -MemberType Noteproperty -Name "Resource Group"-Value $_.ResourceGroupName
