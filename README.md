@@ -11,4 +11,4 @@ Azure PowerShell: How to install and configure Azure PowerShell  https://azure.m
 
 **List Pay-as-you-Go WS and Convert AHUB.ps1** This script lists the VM's under the subscription to the OS, License and RG type, and the VMs that generate the license cost through the Pay-as-you-go method.Allows you to use the advantage of AHUB on virtual servers you specify.
 
-**ExportAndSendMail-O365AuditLog.ps1** This PowerShell script connects directly Office 365 Audit Log system. From the moment Ps works, it searches backward for a 30-day record. Based on that results, the script will directly extract the AuditData field and convert to a CSV file and send an e-mail. (**Special request :)**)
+**ExportAndSendMail-O365AuditLog.ps1** This PowerShell script connects directly Office 365 Audit Log system. From the moment Ps works, it searches backward for a 30-day record. Based on that results, the script will directly extract the AuditData field and convert to a CSV file and send an e-mail. **Special request :)**
